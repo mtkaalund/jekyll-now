@@ -42,7 +42,9 @@ finally:
 ```
 
 When we open this file in a editor, like <b>gedit</b> we see something like:
+
 ![python.com.html in gedit](/images/2011-11-08-python-and-downloading-a-file/python.com.html.png)
+
 Now the script opens a local file <i>python.com.html</i> using python's <i>open</i> function and using <i>'wb'</i> statement. The <i>'w'</i> standsfor writeable, and <i>'b'</i> is binary mode. To read more on the built-in <i>open</i> function see this reference [Python open function](http://docs.python.org/library/functions.html#open), and we are using this with statement to open our local file, I'm not going into depth on this, want to know more about it. Please see reference [Python with statement](http://www.effbot.org/zone/python-with-statement.htm)
 
 # Creating a class to handle our download
