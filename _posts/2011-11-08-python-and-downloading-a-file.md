@@ -24,4 +24,19 @@ Next we make a request for this url with (<i>urllib2.Request</i>), and after tha
 When it is done, we can now read the web page with <i>urllib2.read</i> and we are going to print it out.
 
 This is fine for just printing it out on the terminal, but what if we want to write this to a file? Luckly there is a way:
+```python
+import urllib2
+import shutil
+
+url = "http://www.python.com"
+fname = "python.com.html"
+request = urllib2.Request(url)
+urlobj = urllib2.urlopen(request)
+try:
+	with open(fname, 'wb') as f:
+		shutil.copyfileobj(urlobj, f)
+finally:
+	urlobj.close()
+```
+When we open this file in a editor, like <b>gedit</b> we see something like:
 
