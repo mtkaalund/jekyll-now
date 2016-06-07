@@ -9,14 +9,14 @@ So there is two libraries designed to handle web requests (and there is at least
 So this two libraries is called <i>urllib</i> and <i>urllib2</i>, the one I would suggest using is <i>urllib2</i>, aleast for web downloads a file or web page.
 So to make a simple start:
 
-{% highlight python %}
+```python
 import urllib2
 url = "http://www.python.com"
 request = urllib2.Request(url)
 urlobj = urllib2.urlopen(request)
 readpage = urlobj.read()
 print readpage
-{% endhighlight %}
+```
 
 So first we import <i>urllib2</i> into python... yeah I know that you properly know this, but just humor me.
 The next we have defined is the url that we would like to download <i>[http://www.python.com](http://www.python.com)</i>, why would we download this web page, just to show it is possible.
