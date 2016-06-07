@@ -49,7 +49,7 @@ Now we know that our code works to download a file. But if we are going to downl
 If you are writing on a larger script, where you need to download more than one file. So if you need to read up on pythonic classes, please see reference [Python classes](http://docs.python.org/tutorial/classes.html).
 Here is my take on a class to handle downloads.
 
-```Python
+```python
 # Filename: DownloadFile.py
 from urllib2 import Request, urlopen, URLError, HTTPError
 from shutil import copyfileobj
