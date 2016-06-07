@@ -19,6 +19,9 @@ print readpage
 {% endhighlight %}
 
 So first we import <i>urllib2</i> into python... yeah I know that you properly know this, but just humor me.
-The next we have defined is the url that we would like to download <i><a href="http://www.python.com">http://www.python.com</a></i>, why would we download this web page, just to show it is possible.
+The next we have defined is the url that we would like to download <i>[http://www.python.com](http://www.python.com)</i>, why would we download this web page, just to show it is possible.
 Next we make a request for this url with (<i>urllib2.Request</i>), and after that we are going to make an url object with <i>urllib2.urlopen</i>. 
 When it is done, we can now read the web page with <i>urllib2.read</i> and we are going to print it out.
+
+This is fine for just printing it out on the terminal, but what if we want to write this to a file? Luckly there is a way:
+
