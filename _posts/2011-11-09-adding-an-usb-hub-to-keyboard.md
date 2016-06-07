@@ -18,6 +18,7 @@ So the plan is use the one in the back for the keyboard, an the tree others for 
 
 ## The plan
 I have put my plan into steps:
+
 1. Disassemble the usb hub and keyboard
 2. Disconnect the usb cable from the keyboard
 3. Disconnect the usb cable from the hub and disconnect one of the usb ports
@@ -27,6 +28,7 @@ I have put my plan into steps:
 7. Wire the keyboards old usb cable to the usb hub
 8. Check if it works
 9. Close it up
+
 So this is the plan, and the time for implementing it.
 
 ## Implementing the plan
