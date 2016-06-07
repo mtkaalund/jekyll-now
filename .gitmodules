@@ -1,3 +1,0 @@
-[submodule "projects/avr-tools-build"]
-	path = projects/avr-tools-build
-	url = https://github.com/mtkaalund/avr-tools-build
