@@ -37,10 +37,12 @@ Hopes this help somebody.
 He has found there is some problem with the script, in the way I have designated the subcircuits. I think the solution he has found is a far better option, please use it instead of the script.
 
 <b>Flintathome the 30. april 2016</b>
+
 Hey. Interesting little script :)
 
 I am having some difficulties creating netlists when using sub circuits in gschem. I have a simple voltage divider with two resistors (R1 and R2, just to keep things simple for testing), and use it 3 times in a schematic.
 Netlisting with gnetlist does not complain and I get
+
 ```
 *============== Begin SPICE netlist of main design ============
 V1 1 0 DC 1V
@@ -52,6 +54,7 @@ S3/R1 6 out3 1k
 S3/R2 0 out3 1k 
 .end
 ```
+
 But when I do a dc sweep in ngspice I get 0 volts out all the time on all 3 outputs.
 
 Any good ideas I can try to figure this one out?
@@ -59,9 +62,11 @@ Any good ideas I can try to figure this one out?
 /flindt
 
 <b>Me the 30. april 2016</b>
-The problem is likely that S*/ is in front of the resistors. It would likely that you need to modify your netlist with new name for the resistors and removing S*/ infront of the resistors.
+
+The problem is likely that S\*/ is in front of the resistors. It would likely that you need to modify your netlist with new name for the resistors and removing S\*/ infront of the resistors.
 
 <b>Flindtathome the 2. may 2016</b>
+
 Yes, you are right :)
 The guide I was following insisted that subcircuits are designated S? - but that does not work, the must be named X? as per the documentation.
 
