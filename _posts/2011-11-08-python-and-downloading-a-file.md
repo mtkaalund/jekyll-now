@@ -1,6 +1,7 @@
 ---
-layout: post
-title: Python and downloading a file
+layout : post
+title : Python and downloading a file
+categories : [python, downloading, tutorial]
 ---
 Disclamer: This is a old post, but it should still work on python 2.x
 
