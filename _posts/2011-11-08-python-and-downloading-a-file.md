@@ -24,6 +24,7 @@ Next we make a request for this url with (<i>urllib2.Request</i>), and after tha
 When it is done, we can now read the web page with <i>urllib2.read</i> and we are going to print it out.
 
 This is fine for just printing it out on the terminal, but what if we want to write this to a file? Luckly there is a way:
+
 ```python
 import urllib2
 import shutil
@@ -38,5 +39,6 @@ try:
 finally:
 	urlobj.close()
 ```
-When we open this file in a editor, like <b>gedit</b> we see something like:
 
+When we open this file in a editor, like <b>gedit</b> we see something like:
+![python.com.html in gedit](/images/2011-11-08-python-and-downloading-a-file/python.com.html.png)
