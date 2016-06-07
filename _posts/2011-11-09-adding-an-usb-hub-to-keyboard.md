@@ -9,9 +9,12 @@ So the plan is use the one in the back for the keyboard, an the tree others for 
 
 ### Hardware
 * Keyboard [Logitech Internet 350 USB Keyboard](http://www.logitech.com/en-roeu/for-business/products/keyboards/devices/585) 
-	![Logitech Internet 350 USB Keyboard](/images/2011-11-09-adding-an-usb-hub-to-keyboard/logitech_350_keyboard.png)
+
+![Logitech Internet 350 USB Keyboard](/images/2011-11-09-adding-an-usb-hub-to-keyboard/logitech_350_keyboard.png)
+
 * USB Hub [Targus USB Hub ACH93EU](http://www.targus.com/uk/drivers_manuals.asp?SKU=ACH93EU)
-	![Targus USB Hub ACH93EU](/images/2011-11-09-adding-an-usb-hub-to-keyboard/targus_usb_hub.jpg)
+
+![Targus USB Hub ACH93EU](/images/2011-11-09-adding-an-usb-hub-to-keyboard/targus_usb_hub.jpg)
 
 ## The plan
 I have put my plan into steps:
