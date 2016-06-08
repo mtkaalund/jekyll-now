@@ -4,7 +4,14 @@ title: Projects
 permalink: /projects/
 ---
 
-# My projects hosted on [github.com](http://github.com/mtkaalund)
-{% for repository in site.github.public_repositories %}
-  * [{{ repository.name }}]({{ repository.html_url }})
-{% endfor %}
+# avr-tools-build
+enter description
+
+[github](http://github.com/mtkaalund/avr-tools-build.git)
+
+
+# gSchem-Hierarki-Block-Symbol-Creater
+enter description
+
+[github](http://github.com/mtkaalund/gSchem-Hierarki-Block-Symbol-Creater.git)
+
