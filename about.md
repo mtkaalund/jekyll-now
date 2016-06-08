@@ -6,7 +6,6 @@ permalink: /about/
 
 Just a normal nerd!
 
-
-### Contact me
-
-[kaalund@gmail.com](mailto:kaalund@gmail.com)
+{% for repository in site.github.public_repositories %}
+	* [{{ repository.name }}]({{ repository.html_url }})
+{% endfor % }
