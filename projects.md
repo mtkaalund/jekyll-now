@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+This is what I'm thinkering with, when the time is for it. One project has been discontinuet.
 
 # avr-tools-build
 A bash script for compiling the newest set of the avr toolchain to a local directory.
