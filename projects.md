@@ -16,3 +16,7 @@ A set of python script to create a hiaraki block symbol. It is abandon please se
 
 [github](http://github.com/mtkaalund/gSchem-Hierarki-Block-Symbol-Creater.git)
 
+# hardware
+Storing datasheets, application notes etc.
+
+[github](http://github.com/mtkaalund/hardware)
