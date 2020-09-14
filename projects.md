@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-This is what I'm thinkering with, when the time is for it. One project has been discontinuet.
+This is what I'm thinkering with, when the time is for it. Some of the projects has been discontinuet.
 
 # Electronics projects / Embedded projects
 
