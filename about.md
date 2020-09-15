@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 {% avatar mtkaalund %}
-Nothing here yet
+Nothing here yet :)
