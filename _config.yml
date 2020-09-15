@@ -71,7 +71,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-avatar
   - jemoji
-
+  - rouge
 # Exclude these files from your production _site
 exclude:
     - Gemfile
@@ -80,4 +80,4 @@ exclude:
     - README.md
     - CNAME
 
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tactile
