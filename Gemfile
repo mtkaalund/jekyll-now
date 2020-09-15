@@ -1,1 +1,1 @@
-gem 'jekyll-avatar'
+gem 'jekyll-avatar jemoji'
